@@ -34,7 +34,7 @@ void draw() {
   for(int i = 0; i<=width; i+=30)
   { xoff += increment;
    yoff += increment;
-    tmpHeight[i]=noise(xoff,yoff)*200;
+    tmpHeight[i]=noise(xoff,yoff)*250;
     stroke(255);
     vertex(i,height-tmpHeight[i]);
 }
